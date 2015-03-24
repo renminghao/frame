@@ -304,10 +304,8 @@ $$.prototype.value = function (){
 $$.prototype.html = function (data){
 	for(var i = 0; i < this.length; i++){
 		if(this[i].innerHTML){
-			this[i].innerHTML = "";
 			this[i].innerHTML = data;
 		}else{
-			this[i].value = "";
 			this[i].value = data;
 		}
 	}
