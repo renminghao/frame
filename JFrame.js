@@ -1,5 +1,5 @@
 var strHave = function (tag, ori){
-	return ori.indexOf(tag) > -1 ? true : false;
+	return ori.indexOf(tag) > -1;
 };
 
 var strFormat = function (){
